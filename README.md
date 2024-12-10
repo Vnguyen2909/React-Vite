@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-### `npx create-react-app frontend`
+### `npx create-react-app frontend` //Create React
+
+### `npm i --save sass` //SCSS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
