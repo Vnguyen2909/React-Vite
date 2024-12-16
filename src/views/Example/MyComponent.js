@@ -5,7 +5,8 @@ class MyComponent extends React.Component {
     //key : value
     state = {
         myname: "Nguyen Tuan Vi",
-        faecbook: "Nguyen Vi"
+        faecbook: "Nguyen Vi",
+        ig: '2909_nguyenv'
     }
     /*
      JSX => return block
@@ -28,8 +29,8 @@ class MyComponent extends React.Component {
         return (
             <>
              <div className="first">
-                <p>Hello {this.state.myname}</p>
-                <input value={this.state.myname} type="text" 
+                <p>Hello {this.state.ig}</p>
+                <input value={this.state.ig} type="text" 
                     onChange={(event) => this.handleOnChangeName(event)}>
                 </input>
              </div>
